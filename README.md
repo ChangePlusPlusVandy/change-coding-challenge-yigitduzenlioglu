@@ -29,7 +29,7 @@ For the purposes of this program, we will only be asking you to use the followin
 
 Here is a helpful sample request to get 100 tweets from `@twitterapi`:
 
-`GET https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=twitterapi?count=100`
+`GET https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=twitterapi&count=100`
 
 You will want to modify this endpoint to get tweets from `@elonmusk` and `@kanyewest`.
 
@@ -44,7 +44,7 @@ The game loop for your application should look something like this:
   <li>Randomly choose a tweet by Elon or Kanye to give to the user</li>
   <li>Prompt the user to guess</li>
   <li>Let the user know if they were correct</li>
-  <li>Repeat steps 1-4</li>
+  <li>Repeat steps 2-4</li>
   <li>Show the user their game statistics</li>
 </ol>
 
