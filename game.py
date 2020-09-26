@@ -31,7 +31,7 @@ def get_tweets(username):
         #    if j.find('http') == -1 and j.find('@') == -1 :
         #        csvWriter.writerow([tweet.text.encode('utf-8')])
         #        print (tweet.text)
-        #csvFile.close()
+        #csvFile.close() 
 
         # Empty Array that will be appended by tweets
         tmp=[]
